@@ -1,5 +1,7 @@
 # Kinexon custom DNS challenge 
 
+
+
 The challenge description was mentioning about creating a VM for DNS queries, however I preferred to do it through [CoreDNS](https://coredns.io/) Docker image. 
 
 What does this [mini script](./main.py) do ?
@@ -27,9 +29,19 @@ $ pip3 install requests
 $ pip3 install -r requirements.txt
 ```
 
+### Demo 
+----
+
+[![asciicast](https://asciinema.org/a/uNTC5GeU8HVjIcMbOREMgJI6V.svg)](https://asciinema.org/a/uNTC5GeU8HVjIcMbOREMgJI6V)
+
+
+
+
 Once Python script executed, it will automatically create zone and core files along running coredns image with custom settings. 
 
 The DNS Server can be tested through `dig` command as shown below.
+
+
 
 
 ## Testing the script 
