@@ -32,8 +32,7 @@ $ pip3 install -r requirements.txt
 ### Demo 
 ----
 
-[![asciicast](https://asciinema.org/a/uNTC5GeU8HVjIcMbOREMgJI6V.svg)](https://asciinema.org/a/uNTC5GeU8HVjIcMbOREMgJI6V)
-
+[![asciicast](https://asciinema.org/a/453619.svg)](https://asciinema.org/a/453619)
 
 
 
